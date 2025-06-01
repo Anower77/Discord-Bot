@@ -1,2 +1,18 @@
+# Ignore Python-specific files
+__pycache__/
+*.pyc
+*.pyd
+
+# Ignore environment variables file
 .env
-__pycache__
+
+# Ignore data directory (uploads, links, etc.)
+data/
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db 
